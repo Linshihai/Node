@@ -3,9 +3,9 @@ var http = require('http')
 var url = require('url')
 var fs = require('fs')
 
-var baseurl = "http://jandan.net/ooxx/page-{1}"
-var start = 11
-var end = 200
+var baseurl = "http://jandan.net/ooxx/page-{1}";
+var start = 11;
+var end = 200;
 var repr1 = /<ol class="commentlist".*<\/ol>/gi
 var repr2 = /<p><img src="(.+?)"/gi
 var repr3 = /.+?\//gi
